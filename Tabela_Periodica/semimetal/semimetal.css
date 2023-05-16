@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;
+}
+	
+:root{
+	--fundo:rgb(255, 255, 255);
+	--nao-metal:rgb(187, 243, 33);
+	--gas-nobre:rgb(80, 155, 199);
+	--metal-alcalino:rgb(239, 151, 27);
+	--metal-alcalino-terroso:rgb(247, 231, 107);
+	--semimetal:rgb(110,200,190);
+	--halogenio:rgb(173, 210, 230);
+	--outros-metais:rgb(166, 178, 178);
+	--metal-transicao:rgb(247, 162, 162);
+	--lantanideo:rgb(44, 141, 141);
+	--actinidio:rgb(231, 95, 197);
+	--preto:rgb(0, 0, 0);
+}
+
+main{
+	margin:auto; /* mantém a tabela centralizada*/
+	display:flex;
+	position: relative;
+	max-width:100%;
+	display:block;
+}
+
+img {
+	width: 300px;
+	height: 110px;
+	position: absolute;
+	left: 300px;
+  	top: 60px;
+  }
+
+
+body{
+	font:1em/1 'Montserrat', sans-serif;
+	color: var(--fundo);
+	text-align:center;	
+	font-size:9px; /*nome*/
+	display: flex;
+    flex-direction: column; /*alinhar no centro e em coluna*/
+}
+
+
+/* Cores */	
+
+/* Cor dos quadrados/elementos */
+.nao-metal{
+	background-color:var(--preto);
+}
+	
+.gas-nobre{
+	background-color:var(--preto);
+}
+
+.metal-alcalino{
+	background-color:var(--preto);
+}
+	
+.metal-alcalino-terroso{
+	background-color:var(--preto);
+}
+	
+.semimetal{
+	background-color:var(--semimetal);
+}
+	
+.halogenio{
+	background-color:var(--preto);
+}
+	
+.outros-metais{
+	background-color:var(--preto);
+}
+	
+.metal-transicao{
+	background-color:var(--preto);
+}
+	
+.lantanideo{
+	background-color:var(--preto);
+}
+	
+.actinidio{
+	background-color:var(--preto);
+}
+
+
+/* Cor do quadrado da legenda */
+
+section .nao-metal{
+	background-color:var(--nao-metal);
+}
+	
+section .gas-nobre{
+	background-color:var(--gas-nobre);
+}
+
+section .metal-alcalino{
+	background-color:var(--metal-alcalino);
+}
+	
+section .metal-alcalino-terroso{
+	background-color:var(--metal-alcalino-terroso);
+}
+	
+section .semimetal{
+	background-color:var(--semimetal);
+}
+	
+section .halogenio{
+	background-color:var(--halogenio);
+}
+	
+section .outros-metais{
+	background-color:var(--outros-metais);
+}
+	
+section .metal-transicao{
+	background-color:var(--metal-transicao);
+}
+	
+section .lantanideo{
+	background-color:var(--lantanideo);
+}
+	
+section .actinidio{
+	background-color:var(--actinidio);
+}
+
+/* Cor ao clicar na legenda */
+
+#nao-metal:hover{
+	background-color: var(--nao-metal);
+}
+
+#gas-nobre:hover{
+	background-color: var(--gas-nobre);
+}
+
+#metal-alcalino:hover{
+	background-color:var(--metal-alcalino);
+}
+	
+#metal-alcalino-terroso:hover{
+	background-color:var(--metal-alcalino-terroso);
+}
+	
+#semimetal:hover{
+	background-color:var(--semimetal);
+}
+	
+#halogenio:hover{
+	background-color:var(--halogenio);
+}
+	
+#outros-metais:hover{
+	background-color:var(--outros-metais);
+}
+	
+#metal-transicao:hover{
+	background-color:var(--metal-transicao);
+}
+	
+#lantanideo:hover{
+	background-color:var(--lantanideo);
+}
+	
+#actinidio:hover{
+	background-color:var(--actinidio);
+}
+
+
+/* Fontes */
+
+a {
+	text-decoration: none; /* tira sublinhado */
+	color: inherit; /* mantem cor original */
+}
+
+h1{
+	font:'Montserrat', sans-serif;
+	color: var(--preto);
+	font-size:65px;
+	font-weight:100;
+	letter-spacing:-.05em;
+	padding-top: 10px;
+}
+
+h2{
+	font-size:14px; /*simbolo quimico*/
+}
+
+p:last-child{
+	font-size:9px;	 /*peso atomico*/
+}
+
+
+/* Linhas/Espaçamento */
+
+.espaco-linha-1{
+	grid-column:span 16; /* 16 blocos até o próximo elemento */
+}
+			
+.espaco-linha-2{
+	grid-column:span 10; /* 10 blocos até o próximo elemento */
+}
+
+.espaco-linha-3{
+	grid-column:span 10; /* 10 blocos até o próximo elemento */
+}
+			
+.espaco-linha-8{
+	grid-column:span 3; /* 3 blocos até o próximo elemento */
+}
+		
+.espaco-linha-9{
+	grid-column:span 3; /* 3 blocos até o próximo elemento */
+}
+
+.espaco-oculto{
+	display:block; /* Criar blocos entre os espaços */
+	visibility:hidden; /* Esconder os blocos criados */
+}
+
+#grid-container{
+	display:grid;
+	grid-template-columns:repeat(18, 60px); /*tamanho do quadrado dos elementos*/	
+}
+
+
+/* Elementos */
+
+section{
+	height: 60px;
+	background:var(--fundo);	
+	border:2px solid;
+	border-radius:5px;	
+	line-height:12px;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.elemento{
+	margin:0; /* espaçamento entre os quadrados */
+}
+	
+span{
+	font-size:10px; /*numero atomico*/
+	position:absolute;
+	top: 3px;
+	left:3px;	
+}
+
+
+/* Legenda */
+
+footer{
+	font-size:10px;
+	width:100%;
+	text-align:center;	
+}
+
+ul{
+	display:flex;
+	flex-wrap:nowrap;
+	padding: 10px;
+	justify-content:center;
+	position: absolute;
+}
+
+ul div{
+	width: 10px;
+	height: 10px;
+	position: absolute; /*quadrado legenda*/	
+}
+
+li{
+	flex-basis:auto;
+	line-height: 10px;
+	color: var(--preto);
+	padding: 0 15px 0 15px;
+	position: relative; /*letra sobreposta*/
+}
+
+li:hover{
+	transition:.5s;
+	cursor:default;
+}
+			
+
+/* Botão */
+
+.botao {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #af4c4c;
+	color: white;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 4px;
+	display: flex;
+	align-items: flex-start;
+	margin: 20px 0  0 50px;
+	position: absolute;
+  }
+
+  .botao:hover {
+	background-color: #ef0f0f;
+  }
+		
+
+
+
+
+
+
+
+
+
