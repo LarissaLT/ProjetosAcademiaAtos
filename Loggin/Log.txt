@@ -1,0 +1,55 @@
+out. 10, 2022 5:48:17 PM br.com.loggin.principal main
+INFORMAÇÕES: Log de informação
+out. 10, 2022 5:48:17 PM br.com.loggin.principal main
+ADVERTÊNCIA: Log de Aviso
+out. 10, 2022 5:48:17 PM br.com.loggin.principal main
+GRAVE: Log Severo
+abr 27, 2023 7:33:27 PM br.com.loggin.principal main
+INFORMAÇÕES: Log de informação
+abr 27, 2023 7:33:27 PM br.com.loggin.principal main
+ADVERTÊNCIA: Log de Aviso
+abr 27, 2023 7:33:27 PM br.com.loggin.principal main
+GRAVE: Log Severo
+abr 27, 2023 7:52:55 PM br.com.loggin.principal main
+INFORMAÇÕES: Log de informação
+abr 27, 2023 7:52:55 PM br.com.loggin.principal main
+ADVERTÊNCIA: Log de Aviso
+abr 27, 2023 7:52:55 PM br.com.loggin.principal main
+GRAVE: Log Severo
+mai 02, 2023 6:48:53 PM DebugExemplo.DebugExemplo.src.Principal main
+INFORMAÇÕES: Log de informação
+mai 02, 2023 6:48:53 PM DebugExemplo.DebugExemplo.src.Principal main
+ADVERTÊNCIA: Log de Aviso
+mai 02, 2023 6:48:53 PM DebugExemplo.DebugExemplo.src.Principal main
+GRAVE: Log Severo
+mai 02, 2023 6:49:20 PM DebugExemplo.DebugExemplo.src.Principal main
+INFORMAÇÕES: Log de informação
+mai 02, 2023 6:49:20 PM DebugExemplo.DebugExemplo.src.Principal main
+ADVERTÊNCIA: Log de Aviso
+mai 02, 2023 6:49:20 PM DebugExemplo.DebugExemplo.src.Principal main
+GRAVE: Log Severo
+mai 03, 2023 5:40:13 PM DebugExemplo.DebugExemplo.src.Principal main
+INFORMAÇÕES: Log de informação
+mai 03, 2023 5:40:13 PM DebugExemplo.DebugExemplo.src.Principal main
+ADVERTÊNCIA: Log de Aviso
+mai 03, 2023 5:40:13 PM DebugExemplo.DebugExemplo.src.Principal main
+GRAVE: Log Severo
+mai 04, 2023 8:56:38 PM DebugExemplo.DebugExemplo.src.Principal main
+INFORMAÇÕES: Log de informação
+mai 04, 2023 8:56:38 PM DebugExemplo.DebugExemplo.src.Principal main
+ADVERTÊNCIA: Log de Aviso
+mai 04, 2023 8:56:38 PM DebugExemplo.DebugExemplo.src.Principal main
+GRAVE: Log Severo
+mai 04, 2023 9:08:00 PM DebugExemplo.DebugExemplo.src.Principal main
+INFORMAÇÕES: Log de informação
+mai 04, 2023 9:08:00 PM DebugExemplo.DebugExemplo.src.Principal main
+ADVERTÊNCIA: Log de Aviso
+mai 04, 2023 9:08:00 PM DebugExemplo.DebugExemplo.src.Principal main
+GRAVE: Log Severo
+mai 05, 2023 2:19:23 PM DebugExemplo.DebugExemplo.src.Principal main
+INFORMAÇÕES: Log de informação
+mai 05, 2023 2:19:23 PM DebugExemplo.DebugExemplo.src.Principal main
+ADVERTÊNCIA: Log de Aviso
+mai 05, 2023 2:19:23 PM DebugExemplo.DebugExemplo.src.Principal main
+GRAVE: Log Severo
+
