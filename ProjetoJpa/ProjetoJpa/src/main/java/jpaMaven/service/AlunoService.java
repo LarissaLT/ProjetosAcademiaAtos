@@ -1,9 +1,19 @@
 package jpaMaven.service;
 
 import jpaMaven.model.Aluno;
+import jpaMaven.model.Curso;
+import jpaMaven.model.Disciplina;
+import jpaMaven.model.Professor;
 import jpaMaven.repository.aluno.AlunoRepository;
 import jpaMaven.repository.aluno.AlunoRepositoryImpl;
+import jpaMaven.repository.curso.CursoRepository;
+import jpaMaven.repository.curso.CursoRepositoryImpl;
+import jpaMaven.repository.disciplina.DisciplinaRepository;
+import jpaMaven.repository.disciplina.DisciplinaRepositoryImpl;
+import jpaMaven.repository.professor.ProfessorRepository;
+import jpaMaven.repository.professor.ProfessorRepositoryImpl;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -11,21 +21,86 @@ public class AlunoService {
 
     Scanner scanner = new Scanner(System.in);
     private AlunoRepository alunoRepository = new AlunoRepositoryImpl();
+    private DisciplinaRepository disciplinaRepository = new DisciplinaRepositoryImpl();
+    private CursoRepository cursoRepository = new CursoRepositoryImpl();
+    private ProfessorRepository professorRepository = new ProfessorRepositoryImpl();
 
-    public void inserirAluno() {
+    public void matricularAluno() {
+        // Criar uma nova instância de Aluno com os dados fornecidos
+        Aluno aluno = new Aluno();
+
         // Solicitar os dados da aluno ao usuário
         System.out.print("Digite o nome do aluno: ");
-        String nome = scanner.nextLine();
+        String input = scanner.nextLine();
+        aluno.setNome(input);
 
-        // Criar uma nova instância de Aluno com os dados fornecidos
-        Aluno aluno = new Aluno(null, nome);
+        /*------------------------------------------------------------------------*/
+
+        // find all no curso
+        List<Disciplina> disciplinas = disciplinaRepository.listar();
+        System.out.println("Disciplinas disponíveis:");
+        System.out.println("1-Inglês | 2-Espanhol");
+        System.out.println("Digite o ID da Disciplina");
+        input = scanner.nextLine();
+
+        Long idDisciplina = Long.parseLong(input);
+
+        Disciplina disciplinaEncontrada = disciplinas.stream()
+                .filter(e -> e.getId().equals(idDisciplina))
+                .findFirst()
+                .orElse(null);
+
+        aluno.setDisciplinas(Collections.singletonList(disciplinaEncontrada));
+
+        /*------------------------------------------------------------------------*/
+
+        List<Curso> cursos = cursoRepository.listar();
+        System.out.println("Cursos disponíveis:");
+        System.out.println("1-Básico | 2-Intermediário | 3-Avançado");
+        System.out.print("Digite o ID do Curso: ");
+        input = scanner.nextLine();
+
+        Long idCuso = Long.parseLong(input);
+
+        Curso cursoEncontrado = cursos.stream()
+                .filter(e -> e.getId().equals(idCuso))
+                .findFirst()
+                .orElse(null);
+
+        aluno.setCurso(cursoEncontrado);
+
+        /*------------------------------------------------------------------------*/
+
+        List<Professor> professores = professorRepository.listar();
+        System.out.println("Professores disponíveis:");
+        System.out.println("1- Carlos | 2-Rosana");
+        System.out.print("Digite o ID do Professor: ");
+        input = scanner.nextLine();
+
+        Long idProfessor = Long.parseLong(input);
+
+        Professor professorEncontrado = professores.stream()
+                .filter(e -> e.getId().equals(idProfessor))
+                .findFirst()
+                .orElse(null);
+
+        aluno.setProfessor(professorEncontrado);
+
+        /*------------------------------------------------------------------------*/
 
         // Inserir a nova aluno no banco de dados no alunoRepository
         alunoRepository.inserir(aluno);
-        System.out.print("Dados inseridos com sucesso!");
+        System.out.print("Dados inseridos com sucesso! \n");
+    }
 
-//		// Fechar a conexão com o banco de dados e encerrar o scanner no alunoRepository
-//		scanner.close();
+    public void inserirAluno() {
+        System.out.print("Digite o nome do aluno: ");
+        String nome = scanner.nextLine();
+
+        Aluno aluno = new Aluno(null, nome);
+
+        alunoRepository.inserir(aluno);
+        System.out.print("Dados inseridos com sucesso!");
 
     }
 

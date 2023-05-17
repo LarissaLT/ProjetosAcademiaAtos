@@ -23,7 +23,6 @@ public class ProfessorRepositoryImpl implements ProfessorRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         } finally {
-            entityManager.close();
         }
     }
 
@@ -40,7 +39,7 @@ public class ProfessorRepositoryImpl implements ProfessorRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         } finally {
-            entityManager.close();
+
         }
     }
 
@@ -53,7 +52,7 @@ public class ProfessorRepositoryImpl implements ProfessorRepository {
 
             return professores;
         } finally {
-            entityManager.close();
+
         }
     }
 
@@ -69,7 +68,7 @@ public class ProfessorRepositoryImpl implements ProfessorRepository {
                 System.out.println("Professor com o ID informado não encontrado.");
             }
         } finally {
-            entityManager.close();
+
         }
     }
 

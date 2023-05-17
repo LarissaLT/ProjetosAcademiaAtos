@@ -1,8 +1,6 @@
 package jpaMaven.service;
 
 import jpaMaven.model.Curso;
-import jpaMaven.repository.aluno.AlunoRepository;
-import jpaMaven.repository.aluno.AlunoRepositoryImpl;
 import jpaMaven.repository.curso.CursoRepository;
 import jpaMaven.repository.curso.CursoRepositoryImpl;
 
@@ -23,7 +21,6 @@ public class CursoService {
         cursoRepository.inserir(curso);
         System.out.print("Dados inseridos com sucesso!");
 
-        scanner.close();
     }
 
     public void alterarCurso() {
@@ -42,6 +39,28 @@ public class CursoService {
         System.out.print("Dados Alterados com sucesso!");
     }
 
+    public void buscarCurso() {
+        System.out.print("\nEscolher Curso: \n 1-Básico | 2-Intermediário | 3-Avançado \n");
+        long id = scanner.nextInt();
+        scanner.nextLine();
+
+        Curso curso = cursoRepository.buscar(id);
+        if (curso == null) {
+            System.out.println("Curso com o ID informado não encontrada.");
+            return;
+        }
+
+        System.out.print("Tem certeza que deseja escolher esse curso " + curso.getNome() + "? (S/N): ");
+        String confirmacao = scanner.nextLine();
+
+        if (confirmacao.equalsIgnoreCase("S")) {
+            cursoRepository.buscar(curso.getId());
+            System.out.println("Curso selecionado com sucesso!");
+        } else {
+            System.out.println("Operação cancelada pelo usuário.");
+        }
+    }
+
     public void listarCursos() {
         List<Curso> cursos = cursoRepository.listar();
 
@@ -50,7 +69,6 @@ public class CursoService {
         } else {
             System.out.println("Lista de Cursos:");
             for (Curso curso : cursos) {
-                System.out.println("ID: " + curso.getId());
                 System.out.println("Nome: " + curso.getNome());
             }
         }

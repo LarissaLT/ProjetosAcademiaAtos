@@ -15,6 +15,19 @@ public class AlunoRepositoryImpl implements AlunoRepository {
         this.entityManager = MySQLdb.getEntityManager();
     }
 
+    @Override
+    public void matricularAluno(Aluno aluno) {
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.persist(aluno);
+            entityManager.getTransaction().commit();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            entityManager.getTransaction().rollback();
+        }
+
+    }
+
     //Recebe uma instância de aluno como parâmetro e inicia uma transação utilizando o entityManager.
     //Em seguida, persiste a entidade aluno no banco de dados usando o método persist()
     public void inserir(Aluno aluno) {

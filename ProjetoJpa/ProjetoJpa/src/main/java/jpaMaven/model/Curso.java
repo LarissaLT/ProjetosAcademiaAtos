@@ -31,8 +31,7 @@ public class Curso implements Serializable {
 	public String toString() {
 		return "Curso{" +
 				"id=" + id +
-				", nome='" + nome + '\'' +
-				'}';
+				", nome='" + nome + '\'' + '}';
 	}
 
 	public Long getId() {

@@ -23,7 +23,7 @@ public class CursoRepositoryImpl implements CursoRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         } finally {
-            entityManager.close();
+
         }
     }
 
@@ -45,7 +45,6 @@ public class CursoRepositoryImpl implements CursoRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         } finally {
-            entityManager.close();
         }
     }
 
@@ -58,7 +57,6 @@ public class CursoRepositoryImpl implements CursoRepository {
 
             return cursos;
         } finally {
-            entityManager.close();
         }
     }
 
@@ -74,7 +72,7 @@ public class CursoRepositoryImpl implements CursoRepository {
                 System.out.println("curso com o ID informado não encontrado.");
             }
         } finally {
-            entityManager.close();
+
         }
     }
 

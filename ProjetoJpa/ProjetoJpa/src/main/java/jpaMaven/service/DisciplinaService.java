@@ -1,5 +1,6 @@
 package jpaMaven.service;
 
+import jpaMaven.model.Curso;
 import jpaMaven.model.Disciplina;
 import jpaMaven.repository.curso.CursoRepository;
 import jpaMaven.repository.curso.CursoRepositoryImpl;
@@ -22,9 +23,6 @@ public class DisciplinaService {
 
         disciplinaRepository.inserir(disciplina);
         System.out.print("Dados inseridos com sucesso!");
-
-        scanner.close();
-
     }
 
     public void alterarDisciplina() {
@@ -43,6 +41,26 @@ public class DisciplinaService {
         System.out.print("Dados Alterados com sucesso!");
     }
 
+    public void buscarDisciplina() {
+        System.out.print("\nEscolher Disciplina: \n 1-Inglês | 2-Espanhol \n");
+        long id = scanner.nextInt();
+
+        Disciplina disciplina = disciplinaRepository.buscar(id);
+        if (disciplina == null) {
+            System.out.println("Disciplina com o ID informado não encontrado.");
+         return;
+        }
+
+        String confirmacao = scanner.nextLine();
+
+        if ((confirmacao.equals(1) || confirmacao.equals(2))) {
+            disciplinaRepository.buscar(disciplina.getId());
+            System.out.println("Disciplina matriculada com sucesso!");
+        } else {
+            System.out.println("Operação cancelada pelo usuário.");
+        }
+    }
+
     public void listarDisciplina() {
         List<Disciplina> disciplinas = disciplinaRepository.listar();
 
@@ -51,7 +69,6 @@ public class DisciplinaService {
         } else {
             System.out.println("Lista de Disciplinas:");
             for (Disciplina disciplina : disciplinas) {
-                System.out.println("ID: " + disciplina.getId());
                 System.out.println("Nome: " + disciplina.getNome());
             }
         }

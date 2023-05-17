@@ -25,12 +25,25 @@ public class DisciplinaRepositoryImpl implements DisciplinaRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         } finally {
-            entityManager.close();
+
         }
     }
 
     public Disciplina buscar(Long id) {
-        return entityManager.find(Disciplina.class, id);
+        try {
+            entityManager.getTransaction().begin(); // Inicia uma transação
+
+            Disciplina disciplina = entityManager.find(Disciplina.class, id);
+
+            entityManager.getTransaction().commit(); // Confirma a transação
+
+            return disciplina;
+        } catch (Exception e) {
+            entityManager.getTransaction().rollback(); // Desfaz a transação em caso de erro
+            throw e;
+        } finally {
+
+        }
     }
 
     public void atualizar(Disciplina disciplina) {
@@ -42,7 +55,7 @@ public class DisciplinaRepositoryImpl implements DisciplinaRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         } finally {
-            entityManager.close();
+
         }
     }
 
@@ -55,7 +68,7 @@ public class DisciplinaRepositoryImpl implements DisciplinaRepository {
 
             return disciplinas;
         } finally {
-            entityManager.close();
+
         }
     }
 
@@ -71,7 +84,7 @@ public class DisciplinaRepositoryImpl implements DisciplinaRepository {
                 System.out.println("Disciplina com o ID informado não encontrado.");
             }
         } finally {
-            entityManager.close();
+
         }
     }
 
