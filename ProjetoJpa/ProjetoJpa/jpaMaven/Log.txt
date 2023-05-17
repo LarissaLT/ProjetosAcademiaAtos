@@ -1,0 +1,183 @@
+out. 13, 2022 8:51:00 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:51:00 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:51:00 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:51:01 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:52:05 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:52:05 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:52:05 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:52:06 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:52:45 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:52:45 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:52:45 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:52:45 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:54:23 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:54:23 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:54:23 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:54:24 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:56:06 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:56:06 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:56:06 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:56:07 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:56:35 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:56:35 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:56:35 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:56:36 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:57:10 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:57:11 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:57:11 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:57:11 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:58:30 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:58:30 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:58:30 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:58:31 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 8:58:55 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 8:58:55 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 8:58:55 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 8:58:56 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+out. 13, 2022 9:01:51 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+out. 13, 2022 9:01:51 PM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+out. 13, 2022 9:01:51 PM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+out. 13, 2022 9:01:51 PM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+mai. 04, 2023 9:15:29 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+mai. 04, 2023 9:15:29 AM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+mai. 04, 2023 9:15:29 AM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+mai. 04, 2023 9:15:43 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+mai. 04, 2023 9:15:43 AM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+mai. 04, 2023 9:15:43 AM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+mai. 04, 2023 9:15:44 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+mai. 04, 2023 9:17:04 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+mai. 04, 2023 9:17:04 AM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+mai. 04, 2023 9:17:04 AM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+mai. 04, 2023 9:17:05 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+mai. 04, 2023 9:19:16 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+mai. 04, 2023 9:19:16 AM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+mai. 04, 2023 9:19:16 AM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+mai. 04, 2023 9:19:17 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+mai. 04, 2023 9:19:31 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: Log de informação
+mai. 04, 2023 9:19:31 AM jpaMaven.z.application.AlunoMain main
+ADVERTÊNCIA: Log de Aviso
+mai. 04, 2023 9:19:31 AM jpaMaven.z.application.AlunoMain main
+GRAVE: Log Severo
+mai. 04, 2023 9:19:31 AM jpaMaven.z.application.AlunoMain main
+INFORMAÇÕES: 
+A entidade manager factory exemplo_jpa01 foi criada!!
+mai. 11, 2023 7:41:56 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:41:56 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:41:56 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:46:18 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:46:18 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:46:18 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:47:42 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:47:42 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:47:42 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:50:35 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:50:35 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:50:35 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:50:38 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:50:38 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:50:38 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:51:23 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:51:23 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:51:23 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:53:06 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:53:06 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:53:06 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:57:03 PM jpaMaven.z.application.AlunoMain main
+INFO: Log de informação
+mai. 11, 2023 7:57:03 PM jpaMaven.z.application.AlunoMain main
+WARNING: Log de Aviso
+mai. 11, 2023 7:57:03 PM jpaMaven.z.application.AlunoMain main
+SEVERE: Log Severo
+mai. 11, 2023 7:57:05 PM jpaMaven.z.application.AlunoMain main
+INFO: 
+A entidade manager factory exemplo_jpa01 foi criada!!
