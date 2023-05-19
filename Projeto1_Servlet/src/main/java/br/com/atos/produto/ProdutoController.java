@@ -1,6 +1,7 @@
 package br.com.atos.produto;
 
 import br.com.atos.bd.BancoDados;
+import br.com.atos.exceptions.ProdutoNotFoundException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -30,7 +31,7 @@ public class ProdutoController extends HttpServlet {
         *  método service analisa o tipo de requisição para que as
         *  devidas ações sejam executadas
         */
-
+        System.out.println("TESTANDO");
         String method = req.getMethod();
         switch (method){
             case "POST":
@@ -75,6 +76,8 @@ public class ProdutoController extends HttpServlet {
         } else if ("DELETE".equals(method)) {
             System.out.println("deletar");
             doDelete(req, resp);
+        } else if("VIEW".equals(method)){
+            buscarproduto(req,resp);
         } else {
             System.out.println("cadastrar");
             ProdutoModel produto = new ProdutoModel();
@@ -99,7 +102,6 @@ public class ProdutoController extends HttpServlet {
         produto.setCategoria(req.getParameter("categoria"));
         produto.setValor(Float.parseFloat(req.getParameter("valor")));
         produto.setQuantidade(Integer.parseInt(req.getParameter("quantidade")));
-
         repository.atualizar(produto);
         resp.sendRedirect(req.getContextPath() + "/produtos");
     }
@@ -113,4 +115,16 @@ public class ProdutoController extends HttpServlet {
         System.out.println("FIM EXCLUSAO");
     }
 
+    protected void buscarproduto(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int id = Integer.parseInt(req.getParameter("id"));
+        try {
+            ProdutoModel produtounico = repository.buscar(id);
+            req.setAttribute("produtounico", produtounico);
+            req.getRequestDispatcher("/alterar.jsp").forward(req, resp);
+        } catch (ProdutoNotFoundException e) {
+            // TODO Auto-generated catch block
+            System.out.print("Produto não encontrado");
+            e.printStackTrace();
+        }
+    }
 }

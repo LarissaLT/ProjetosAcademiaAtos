@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+body{
+
+margin: 0px;
+font-family:"Open Sans" , sans-serif;
+background: #7B68F5;
+}
+
+.sistema{
+  display:flex;
+  justify-content:  center;
+
+}
+
+
+
+.opcao{
+ display:flex;
+width: 464px;
+height: 60px;
+left: 488px;
+top: 381px;
+margin:30px;
+background: #F5F5F5;
+border-radius: 16px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+container{
+display:flex;
+width: 944px;
+
+margin:90px;
+padding: 20px;
+background: #FFFFFF;
+box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+    
+    
+input{
+
+ margin:30px;
+  padding:10px;
+  border:none;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+
+}
+
+/* Estilo para o botão */
+
+.button:hover {
+        background-color: blue;
+    }
+    
+    
+ .button {
+
+height: 60px;
+
+
+align-items: center;
+background: #771F98;
+border-radius: 15px;
+}
+
+.button:hover {
+        background-color: blue;
+    }
+    
+    
+     
+    
+/* Estilo para tabela */
+table {
+  border-collapse: collapse;
+ 
+}
+
+th,  td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #ddd;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+    

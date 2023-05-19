@@ -76,15 +76,17 @@ public class ProdutoService implements ProdutoRepository {
 
     @Override
     public void atualizar(ProdutoModel produto) {
-        final String query = "UPDATE produto SET id = ?, codigo = ?, nome = ?, categoria = ?, valor = ?, quantidade = ? WHERE id = ?";
+        final String query = "UPDATE produto SET codigo = ?, nome = ?, categoria = ?, valor = ?, quantidade = ? WHERE id = ?";
         try (Connection c = bd.conectar()) {
             PreparedStatement ps = c.prepareStatement(query);
-            ps.setInt(1, produto.getId());
-            ps.setInt(2, produto.getCodigo());
-            ps.setString(3, produto.getNome());
-            ps.setString(4, produto.getCategoria());
-            ps.setFloat(5, produto.getValor());
-            ps.setInt(6, produto.getQuantidade());
+            ps.setInt(1, produto.getCodigo());
+            ps.setString(2, produto.getNome());
+            ps.setString(3, produto.getCategoria());
+            ps.setFloat(4, produto.getValor());
+            ps.setInt(5, produto.getQuantidade());
+            ps.setInt(6, produto.getId());
+            int result = ps.executeUpdate();
+            System.out.println("Linhas modificadas = " + result);
 
         } catch (BancoDadosException | SQLException e) {
             e.printStackTrace();
@@ -103,7 +105,7 @@ public class ProdutoService implements ProdutoRepository {
             ps.setFloat(4, produto.getValor());
             ps.setInt(5, produto.getQuantidade());
             int result = ps.executeUpdate();
-            System.out.println(result);
+            System.out.println("Linhas modificadas = " + result);
 
         } catch (BancoDadosException | SQLException e) {
             e.printStackTrace();
