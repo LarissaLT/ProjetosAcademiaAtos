@@ -1,5 +1,6 @@
 package jpaMaven;
 
+import jpaMaven.core.db.MySQLdb;
 import jpaMaven.repository.aluno.AlunoRepository;
 import jpaMaven.repository.aluno.AlunoRepositoryImpl;
 import jpaMaven.service.AlunoService;
@@ -7,6 +8,7 @@ import jpaMaven.service.CursoService;
 import jpaMaven.service.DisciplinaService;
 import jpaMaven.service.ProfessorService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Application {
@@ -19,13 +21,14 @@ public class Application {
     private ProfessorService professorService;
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Application principal = new Application();
         principal.executar();
     }
 
-    public void executar() {
-
+    public void executar() throws IOException {
+        Seeder s = new Seeder();
+        s.execute();
         this.alunoService = new AlunoService();
         this.cursoService = new CursoService();
         this.disciplinaService = new DisciplinaService();
@@ -62,7 +65,7 @@ public class Application {
         // Fechar a conexão com o banco de dados e encerrar o scanner
         scanner.close();
 
-        alunoRepository.fecharConexao();
+        MySQLdb.fecharConexao();
     }
 
     public void gerenciarMatricula() {

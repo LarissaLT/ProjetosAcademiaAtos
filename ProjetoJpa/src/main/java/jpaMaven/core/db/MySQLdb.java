@@ -5,7 +5,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class MySQLdb {
+public class MySQLdb{
 
     private static EntityManager entityManager;
 
@@ -18,6 +18,11 @@ public class MySQLdb {
             entityManager = factory.createEntityManager(); // criar um obj usando o metodo create
         }
         return entityManager;
+    }
+
+    public static void fecharConexao(){
+        entityManager.close();
+        entityManager = null;
     }
 
 }

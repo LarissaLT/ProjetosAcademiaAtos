@@ -116,7 +116,6 @@ public class ProdutoService implements ProdutoRepository {
     @Override
     public void excluir(int id) {
         final String query = "DELETE FROM produto WHERE id = ?";
-        ProdutoModel produto = new ProdutoModel();
         try (Connection c = bd.conectar()) {
             PreparedStatement ps = c.prepareStatement(query);
             ps.setInt(1, id);

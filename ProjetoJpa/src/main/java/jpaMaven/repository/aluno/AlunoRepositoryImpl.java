@@ -89,10 +89,5 @@ public class AlunoRepositoryImpl implements AlunoRepository {
         } finally {
 
         }
-
     }
-    public void fecharConexao(){
-        entityManager.close();
-    }
-
 }

@@ -12,7 +12,4 @@ public interface AlunoRepository {
     void atualizar(Aluno aluno);
     List<Aluno> listar();
     void excluir(Long id);
-
-    void fecharConexao();
-
 }
