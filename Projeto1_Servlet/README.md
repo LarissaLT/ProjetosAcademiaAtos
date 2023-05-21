@@ -7,11 +7,11 @@ Um cliente está solicitando um sistema web para manter os registros de seus pro
 
 Informações sobre os produtos a serem mantidos:
 
-[1) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.](#ex_resultado)
-[2) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.](#ex_resultado)
-[3) Nem todo o produto cadastrado possui uma categoria.](#ex_resultado)
-[4) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.](#ex_resultado)
-[5) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro.](#ex_resultado)
+[1) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.](#ex_resultado)<br>
+[2) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.](#ex_resultado)<br>
+[3) Nem todo o produto cadastrado possui uma categoria.](#ex_resultado)<br>
+[4) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.](#ex_resultado)<br>
+[5) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro.](#ex_resultado)<br>
 Para a navegação o sistema deve possuir:
 6) uma página home onde o usuário possa escolher o que se deseja fazer (cadastrar, visualizar, alterar ou deletar um produto),
 7) uma página de cadastro de produtos;
