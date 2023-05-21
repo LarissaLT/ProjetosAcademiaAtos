@@ -22,4 +22,6 @@ Todas as páginas têm que possuir uma forma de redirecionamento para a página 
 
 | 1 | Código com valor único e é obrigatório o preenchimento para o cadastro
 
-![img 1](C:\Users\laris\OneDrive\Área de Trabalho\Atos\ProjetosApresentados\Projeto1_Servlet\img\img_1.png)
+![img 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_1.png)
+![img 2](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_2.png)
+
