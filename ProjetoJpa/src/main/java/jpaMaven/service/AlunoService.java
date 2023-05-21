@@ -130,46 +130,46 @@ public class AlunoService {
         }
     }
 
-        public void listarAlunos () {
-            // Obter a lista de todas as alunos do banco de dados no alunoRepository
-            List<Aluno> alunos = alunoRepository.listar();
+    public void listarAlunos() {
+        // Obter a lista de todas as alunos do banco de dados no alunoRepository
+        List<Aluno> alunos = alunoRepository.listar();
 
-            // Verificar se existem alunos cadastradas
-            if (alunos.isEmpty()) {
-                System.out.println("Não há alunos cadastradas.");
-            } else {
-                System.out.println("Lista de Alunos:");
-                for (Aluno aluno : alunos) {
-                    System.out.println("ID: " + aluno.getId());
-                    System.out.println("Nome: " + aluno.getNome());
-                }
-            }
-        }
-
-        public void excluirAluno () {
-            // Solicitar o ID da aluno que será excluída
-            System.out.print("Digite o ID da aluno que deseja excluir: ");
-            long id = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha após a leitura do número
-
-            // Verificar se a aluno com o ID fornecido existe no banco de dados
-            Aluno aluno = alunoRepository.buscar(id);
-            if (aluno == null) {
-                System.out.println("Aluno com o ID informado não encontrada.");
-                return; // Encerrar o método
-            }
-
-            // Confirmar a exclusão com o usuário
-            System.out.print("Tem certeza que deseja excluir a aluno " + aluno.getNome() + "? (S/N): ");
-            String confirmacao = scanner.nextLine();
-
-            if (confirmacao.equalsIgnoreCase("S")) {
-                // Excluir aluno do banco de dados no alunoRepository
-                alunoRepository.excluir(aluno.getId());
-                System.out.println("Aluno excluído com sucesso!");
-            } else {
-                System.out.println("Exclusão cancelada pelo usuário.");
+        // Verificar se existem alunos cadastradas
+        if (alunos.isEmpty()) {
+            System.out.println("Não há alunos cadastradas.");
+        } else {
+            System.out.println("Lista de Alunos:");
+            for (Aluno aluno : alunos) {
+                System.out.println("ID: " + aluno.getId());
+                System.out.println("Nome: " + aluno.getNome());
             }
         }
     }
+
+    public void excluirAluno() {
+        // Solicitar o ID da aluno que será excluída
+        System.out.print("Digite o ID da aluno que deseja excluir: ");
+        long id = scanner.nextInt();
+        scanner.nextLine(); // Consumir a nova linha após a leitura do número
+
+        // Verificar se a aluno com o ID fornecido existe no banco de dados
+        Aluno aluno = alunoRepository.buscar(id);
+        if (aluno == null) {
+            System.out.println("Aluno com o ID informado não encontrada.");
+            return; // Encerrar o método
+        }
+
+        // Confirmar a exclusão com o usuário
+        System.out.print("Tem certeza que deseja excluir a aluno " + aluno.getNome() + "? (S/N): ");
+        String confirmacao = scanner.nextLine();
+
+        if (confirmacao.equalsIgnoreCase("S")) {
+            // Excluir aluno do banco de dados no alunoRepository
+            alunoRepository.excluir(aluno.getId());
+            System.out.println("Aluno excluído com sucesso!");
+        } else {
+            System.out.println("Exclusão cancelada pelo usuário.");
+        }
+    }
+}
 
