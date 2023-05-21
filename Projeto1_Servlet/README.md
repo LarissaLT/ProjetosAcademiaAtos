@@ -34,3 +34,8 @@ Informações sobre os produtos a serem mantidos:
 | 8 | Página Listagem de Produtos
 
 ![img 4](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_4.png)
+
+<h2 id="secao1">Seção 1</h2>
+<p>Conteúdo da seção 1...</p>
+
+[Ir para Seção 1](#secao1)
