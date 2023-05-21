@@ -6,11 +6,13 @@ Requisitos:
 Um cliente está solicitando um sistema web para manter os registros de seus produtos. A manutenção destes produtos inclui os processos de: cadastrar, visualizar produtos cadastrados, excluir cadastro de produtos indesejados e realizar alterações em produtos já cadastrados. Os registros dos produtos deve conter informações como: código do produto, nome do produto, categoria, valor do produto e quantidade.
 
 Informações sobre os produtos a serem mantidos:
-[1) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.](#ex_1)
-2) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.
-3) Nem todo o produto cadastrado possui uma categoria.
-4) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.
-5) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro. Para a navegação o sistema deve possuir:
+
+[1) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.](#ex_resultado)
+[2) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.](#ex_resultado)
+[3) Nem todo o produto cadastrado possui uma categoria.](#ex_resultado)
+[4) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.](#ex_resultado)
+[5) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro.](#ex_resultado)
+Para a navegação o sistema deve possuir:
 6) uma página home onde o usuário possa escolher o que se deseja fazer (cadastrar, visualizar, alterar ou deletar um produto),
 7) uma página de cadastro de produtos;
 8) uma página de listagem de produtos com as opções de:
@@ -19,7 +21,7 @@ Informações sobre os produtos a serem mantidos:
 
 
 
-<p id="ex_1">| 1, 2, 3 , 4 e 5 | Resultado</p>
+<p id="resultado">| 1, 2, 3 , 4 e 5 | Resultado</p>
 
 ![img 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_1.png)
 
