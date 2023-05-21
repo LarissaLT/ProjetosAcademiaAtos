@@ -39,3 +39,7 @@ Para a navegação o sistema deve possuir:<br>
 | 8 | Página Listagem de Produtos</p>
 
 ![img 4](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_4.png)
+
+| EXTRA | 
+
+![gif 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/gif_1.png)
