@@ -12,13 +12,12 @@ Informações sobre os produtos a serem mantidos:
 [3)](#resultado) Nem todo o produto cadastrado possui uma categoria.<br>
 [4)](#resultado) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.<br>
 [5)](#resultado) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro.<br>
-Para a navegação o sistema deve possuir:
+Para a navegação o sistema deve possuir:<br>
 [6)](#ex_6) uma página home onde o usuário possa escolher o que se deseja fazer (cadastrar, visualizar, alterar ou deletar um produto)<br>
 [7)](#ex_7) uma página de cadastro de produtos;<br>
 [8)](#ex_8) uma página de listagem de produtos com as opções de:<br>
-. Excluir um produto
-. Alterar o produto selecionado
-
+. Excluir um produto<br>
+. Alterar o produto selecionado<br>
 
 
 <p id="resultado">
