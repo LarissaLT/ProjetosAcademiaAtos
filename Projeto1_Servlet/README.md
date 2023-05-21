@@ -6,7 +6,7 @@ Requisitos:
 Um cliente está solicitando um sistema web para manter os registros de seus produtos. A manutenção destes produtos inclui os processos de: cadastrar, visualizar produtos cadastrados, excluir cadastro de produtos indesejados e realizar alterações em produtos já cadastrados. Os registros dos produtos deve conter informações como: código do produto, nome do produto, categoria, valor do produto e quantidade.
 
 Informações sobre os produtos a serem mantidos:
-1) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.
+[1) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.](#ex_1)
 2) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.
 3) Nem todo o produto cadastrado possui uma categoria.
 4) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.
@@ -19,7 +19,7 @@ Informações sobre os produtos a serem mantidos:
 
 
 
-| 1, 2, 3 , 4 e 5 | Resultado
+<p id="ex_1">| 1, 2, 3 , 4 e 5 | Resultado</p>
 
 ![img 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_1.png)
 
@@ -35,7 +35,6 @@ Informações sobre os produtos a serem mantidos:
 
 ![img 4](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_4.png)
 
-<h2 id="secao1">Seção 1</h2>
 <p>Conteúdo da seção 1...</p>
 
-[Ir para Seção 1](#secao1)
+[Ir para Seção 1](#ex_1)
