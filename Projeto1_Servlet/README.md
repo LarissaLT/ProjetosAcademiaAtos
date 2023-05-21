@@ -30,12 +30,12 @@ Para a navegação o sistema deve possuir:<br>
 
 ![img 2](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_2.png)
 
-<p id="ex_6">
+<p id="ex_7">
 | 7 | Página de Cadastro</p>
 
 ![img 3](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_3.png)
 
-<p id="ex_6">
+<p id="ex_8">
 | 8 | Página Listagem de Produtos</p>
 
 ![img 4](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_4.png)
