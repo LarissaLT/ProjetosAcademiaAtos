@@ -42,4 +42,4 @@ Para a navegação o sistema deve possuir:<br>
 
 | EXTRA | 
 
-![gif 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/gif_1.png)
+![gif 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/gif_1.gif)
