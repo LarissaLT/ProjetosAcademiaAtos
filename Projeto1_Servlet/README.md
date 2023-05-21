@@ -7,11 +7,11 @@ Um cliente está solicitando um sistema web para manter os registros de seus pro
 
 Informações sobre os produtos a serem mantidos:
 
-[1)](#ex_resultado) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.
-[2)](#ex_resultado) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.
-[3)](#ex_resultado) Nem todo o produto cadastrado possui uma categoria.
-[4)](#ex_resultado) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.
-[5)](#ex_resultado) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro.
+[1)](#ex_resultado) Seu código tem um valor único (representa o código de barra do produto) e é obrigatório seu preenchimento para o cadastro.<br>
+[2)](#ex_resultado) Os nomes dos produtos têm no máximo 50 caracteres, e assim como Código, é obrigatório seu preenchimento para o cadastro.<br>
+[3)](#ex_resultado) Nem todo o produto cadastrado possui uma categoria.<br>
+[4)](#ex_resultado) O valor do produto é um número fracionário com máximo 10 dígitos. Também sendo este um campo de preenchimento obrigatório no seu cadastro.<br>
+[5)](#ex_resultado) A quantidade de produtos é um número inteiro e de preenchimento obrigatório no cadastro.<br>
 Para a navegação o sistema deve possuir:
 6) uma página home onde o usuário possa escolher o que se deseja fazer (cadastrar, visualizar, alterar ou deletar um produto),
 7) uma página de cadastro de produtos;
@@ -21,9 +21,9 @@ Para a navegação o sistema deve possuir:
 
 
 
-<p id="resultado">| 1, 2, 3 , 4 e 5 | Resultado</p>
+<p id="resultado">| 1, 2, 3 , 4 e 5 | Resultado
 
-![img 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_1.png)
+![img 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Projeto1_Servlet/img/img_1.png)</p>
 
 | 6 | Página Home
 
