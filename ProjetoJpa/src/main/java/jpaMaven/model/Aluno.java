@@ -59,16 +59,7 @@ public class Aluno implements Serializable {
 		this.nome = nome;
 	}
 
-	@Override
-	public String toString() {
-		return "Aluno{" +
-				"id=" + id +
-				", nome='" + nome + '\'' +
-				", curso=" + curso +
-				", professor=" + professor +
-				", disciplina=" + disciplinas +
-				'}';
-	}
+
 
 	public Long getId() {
 		return id;

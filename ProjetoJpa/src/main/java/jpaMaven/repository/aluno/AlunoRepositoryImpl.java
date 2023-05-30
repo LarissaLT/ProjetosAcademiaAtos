@@ -25,7 +25,6 @@ public class AlunoRepositoryImpl implements AlunoRepository {
             ex.printStackTrace();
             entityManager.getTransaction().rollback();
         }
-
     }
 
     //Recebe uma instância de aluno como parâmetro e inicia uma transação utilizando o entityManager.

@@ -619,3 +619,48 @@ GRAVE: Log Severo
 mai. 20, 2023 1:23:40 PM jpaMaven.Seeder execute
 INFORMAÇÕES: 
 A entidade manager factory Projeto_jpa foi criada!!
+mai. 22, 2023 6:45:15 PM jpaMaven.Seeder execute
+INFORMAÇÕES: Log de informação
+mai. 22, 2023 6:45:15 PM jpaMaven.Seeder execute
+ADVERTÊNCIA: Log de Aviso
+mai. 22, 2023 6:45:15 PM jpaMaven.Seeder execute
+GRAVE: Log Severo
+mai. 22, 2023 6:45:15 PM jpaMaven.Seeder execute
+INFORMAÇÕES: 
+A entidade manager factory Projeto_jpa foi criada!!
+mai. 22, 2023 8:35:17 PM jpaMaven.Seeder execute
+INFORMAÇÕES: Log de informação
+mai. 22, 2023 8:35:17 PM jpaMaven.Seeder execute
+ADVERTÊNCIA: Log de Aviso
+mai. 22, 2023 8:35:17 PM jpaMaven.Seeder execute
+GRAVE: Log Severo
+mai. 22, 2023 8:35:17 PM jpaMaven.Seeder execute
+INFORMAÇÕES: 
+A entidade manager factory Projeto_jpa foi criada!!
+mai. 22, 2023 9:31:33 PM jpaMaven.Seeder execute
+INFORMAÇÕES: Log de informação
+mai. 22, 2023 9:31:33 PM jpaMaven.Seeder execute
+ADVERTÊNCIA: Log de Aviso
+mai. 22, 2023 9:31:33 PM jpaMaven.Seeder execute
+GRAVE: Log Severo
+mai. 22, 2023 9:31:33 PM jpaMaven.Seeder execute
+INFORMAÇÕES: 
+A entidade manager factory Projeto_jpa foi criada!!
+mai. 23, 2023 2:37:25 PM jpaMaven.Seeder execute
+INFORMAÇÕES: Log de informação
+mai. 23, 2023 2:37:25 PM jpaMaven.Seeder execute
+ADVERTÊNCIA: Log de Aviso
+mai. 23, 2023 2:37:25 PM jpaMaven.Seeder execute
+GRAVE: Log Severo
+mai. 23, 2023 2:37:25 PM jpaMaven.Seeder execute
+INFORMAÇÕES: 
+A entidade manager factory Projeto_jpa foi criada!!
+mai. 25, 2023 8:36:47 PM jpaMaven.Seeder execute
+INFORMAÇÕES: Log de informação
+mai. 25, 2023 8:36:47 PM jpaMaven.Seeder execute
+ADVERTÊNCIA: Log de Aviso
+mai. 25, 2023 8:36:47 PM jpaMaven.Seeder execute
+GRAVE: Log Severo
+mai. 25, 2023 8:36:47 PM jpaMaven.Seeder execute
+INFORMAÇÕES: 
+A entidade manager factory Projeto_jpa foi criada!!
