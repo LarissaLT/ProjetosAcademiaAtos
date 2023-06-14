@@ -20,10 +20,10 @@ Bônus:
 
 
 
-![formulario.js](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Tabela_Periodica/img.README/img.1.png)
+![formulario.js](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Formul%C3%A1rio-JavaScript/formulario-pt1.gif)
 
 
 
 
-![gif 1](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Tabela_Periodica/img.README/gif.1.gif)
+![formulario.js](https://github.com/LarissaLT/ProjetosAcademiaAtos/blob/main/Formul%C3%A1rio-JavaScript/formulario-pt2.gif)
 
