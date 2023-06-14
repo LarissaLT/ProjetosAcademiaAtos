@@ -1,0 +1,7 @@
+table tbody th {
+    width: 25%;
+}
+
+.fim-scroll {
+    border: 2px solid blue;
+  }
